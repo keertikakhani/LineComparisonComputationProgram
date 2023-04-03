@@ -29,9 +29,13 @@ namespace LineComparisonComputationProgram
             Console.WriteLine("Length of line 2 is : " + length2);
 
             if (length2 == length1)
-                Console.WriteLine("Both lines are equal");
+                Console.WriteLine("Line 2 is equal to Line 1");
+
+            else if (length2 > length1)
+                Console.WriteLine("Line 2 is greater than Line 1");
+
             else
-                Console.WriteLine("Both lines are not equal");
+                Console.WriteLine("Line 2 is less than Line 1");
         }
     }
 }
