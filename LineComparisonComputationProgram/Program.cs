@@ -8,6 +8,8 @@ namespace LineComparisonComputationProgram
         {
             Console.WriteLine("Welcome to Line Comparison Computation Program");
 
+            Line.Calculate();
+
             Console.ReadLine();
         }
     }
